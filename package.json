@@ -1,0 +1,20 @@
+{
+  "name": "todoapp",
+  "version": "0.0.1",
+  "description": "A minimal Note application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Erwin maleki",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^2.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.2",
+    "electron-json-storage": "^4.1.1",
+    "node-notifier": "^5.2.1",
+    "uuid": "^3.3.2"
+  }
+}

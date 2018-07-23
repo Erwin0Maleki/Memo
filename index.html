@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Memo</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="left-memos col-3">
+        <div class="row">
+          <div class="title-mem   position-fixed">
+            <h5>Memos</h5>
+          </div>
+        </div>
+        <div class="content mt-5 ">
+          <div class="row">
+            <ul class="list-group list-mem w-100" id="memo-list">
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="right-text col-9">
+        <div class="container mt-5">
+          <div class="col-12 title-date">
+            <div class="row">
+              <p class="memo-date d-inline-block" id="memo-date"></p>
+              <button class="float-right btn-save ml-5" id="btn-save">save</button>
+              <button class="float-right ml-2 " id="btn-new">new</button>
+              <button class="float-right ml-2" id="btn-delete">delete</button>
+            </div>
+          </div>
+          <div class="col-12">
+            <input type="text" class="head-mem" placeholder="type the title of memo" id="memo-title">
+            <textarea name="memo-text" cols="40" rows="12" class="text-mem" id="memo-text"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+
+</html>
