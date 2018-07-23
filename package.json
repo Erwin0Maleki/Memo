@@ -1,5 +1,5 @@
 {
-  "name": "todoapp",
+  "name": "memo",
   "version": "0.0.1",
   "description": "A minimal Note application",
   "main": "main.js",
@@ -7,7 +7,7 @@
     "start": "electron ."
   },
   "author": "Erwin maleki",
-  "license": "CC0-1.0",
+  "license": "MIT",
   "devDependencies": {
     "electron": "^2.0.0"
   },
