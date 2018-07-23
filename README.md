@@ -1,5 +1,5 @@
 # what is Memo?
-a simple and minimalist note app for windows with simple options 
+a simple and minimalist note app for windows with simple options using electron
 # todo : 
 + add save as
 +  widget for windows
