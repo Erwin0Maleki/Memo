@@ -18,3 +18,4 @@ Run electron . (to run the project)
 +  android app
 + chrome extention
 + sync option
++ add folders for notes
