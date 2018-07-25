@@ -4,7 +4,8 @@
   "description": "A minimal Note application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build:win":"electron-packager . memo --platform win32 --asar --icon ./assets/icons/memoico_con.ico"
   },
   "author": "Erwin maleki",
   "license": "MIT",
@@ -14,6 +15,7 @@
   "dependencies": {
     "bootstrap": "^4.1.2",
     "electron-json-storage": "^4.1.1",
+    "electron-packager": "^12.1.0",
     "node-notifier": "^5.2.1",
     "uuid": "^3.3.2"
   }
