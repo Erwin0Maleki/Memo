@@ -1,4 +1,3 @@
-
 const {app, BrowserWindow} = require('electron')
 let mainWindow;
 const path = require('path');

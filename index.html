@@ -4,10 +4,13 @@
   <meta charset="UTF-8">
   <title>Memo</title>
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/style.css">
+  <!-- <link rel="stylesheet" href="assets/css/fontawesome.min.css"> -->
+  <link rel="stylesheet" href="assets/css/material-icons.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+
   <div class="container-fluid">
     <div class="row">
       <div class="left-memos col-3">
@@ -26,11 +29,13 @@
       <div class="right-text col-9">
         <div class="container mt-5">
           <div class="col-12 title-date">
-            <div class="row">
+            <div class="row d-flex justify-content-between pr-4">
               <p class="memo-date d-inline-block" id="memo-date"></p>
-              <button class="float-right btn-save ml-5" id="btn-save">save</button>
-              <button class="float-right ml-2 " id="btn-new">new</button>
-              <button class="float-right ml-2" id="btn-delete">delete</button>
+              <div>
+              <i class="material-icons" id="btn-delete">delete</i>
+              <i class="material-icons" id="btn-new">open_in_new</i>
+              <i class="material-icons" id="btn-save" >save</i>
+            </div>
             </div>
           </div>
           <div class="col-12">

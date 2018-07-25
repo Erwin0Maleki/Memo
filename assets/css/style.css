@@ -1,18 +1,28 @@
 @font-face {
     font-family: openSans-reg;
-    src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: openSans-light;
-    src: url('fonts/OpenSans-Light.ttf') format('truetype');
+    src: url('../fonts/OpenSans-Light.ttf') format('truetype');
 }
 
 @font-face {
     font-family: openSans-Bold;
-    src: url('fonts/OpenSans-Bold.ttf') format('truetype');
+    src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
 }
-
+@font-face {
+    font-family:font-awesome;
+    src:url('../fonts/fontawesome-webfont.woff') format('woff');
+  }
+@font-face {
+    font-family:font-mertial;
+    src:url('../fonts/MaterialIcons-Regular.woff') format('woff');
+  }
+i{
+    font-family: 'font-mertial'!important;
+}
 .left-memos {
     background-color: #292929;
     height: 100vh;
@@ -101,7 +111,7 @@
     font-family: 'openSans-Bold';
     height: 55px;
     width: 100%;
-    font-size: 30px;
+    font-size: 25px;
     padding-left: 10px;
 }
 
@@ -122,53 +132,32 @@
     color: rgb(184, 183, 183);
 }
 
-.btn-save {
-    font-size: 14px;
-    padding: 0;
-    margin: 0;
-    height: 30px;
-    width: 50px;
-    border: none;
-    background-color: #3e84c5;
-    color: white;
+#btn-save {
+    color: rgb(75, 72, 72);
     cursor: pointer;
-    border-radius: 5px;
 }
 
-.btn-save:focus {
-    outline: none;
+#btn-save:hover {
+   color: rgb(173, 169, 169);
 }
 
 #btn-new {
-    font-size: 14px;
-    padding: 0;
-    margin: 0;
-    height: 30px;
-    width: 50px;
-    border: none;
-    background-color: #25b939;
-    color: white;
+    color: rgb(75, 72, 72);
     cursor: pointer;
-    border-radius: 5px;
 }
 
-#btn-new:focus {
-    outline: none;
+#btn-new:hover {
+    color:rgb(173, 169, 169);
 }
 
 #btn-delete {
-    font-size: 14px;
-    padding: 0;
-    margin: 0;
-    height: 30px;
-    width: 50px;
-    border: none;
-    background-color: rgb(196, 40, 56);
-    color: white;
+    color: rgb(75, 72, 72);
     cursor: pointer;
-    border-radius: 5px;
 }
 
-#btn-delete:focus {
-    outline: none;
+#btn-delete:hover {
+   color: tomato;
+}
+.ico-more{
+    color: rgb(139, 137, 137);
 }

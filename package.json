@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build:win":"electron-packager . memo --platform win32 --asar --icon ./assets/icons/memoico_con.ico"
+    "build:win": "electron-packager . memo --platform win32 --asar --icon ./assets/icons/memoico_con.ico"
   },
   "author": "Erwin maleki",
   "license": "MIT",
@@ -16,6 +16,7 @@
     "bootstrap": "^4.1.2",
     "electron-json-storage": "^4.1.1",
     "electron-packager": "^12.1.0",
+    "material-design-icons": "^3.0.1",
     "node-notifier": "^5.2.1",
     "uuid": "^3.3.2"
   }
