@@ -1,6 +1,6 @@
 
 # Memo
-![Screenshot](https://files.fm/thumb_show.php?i=eree5anb)
+![Screenshot](https://files.fm/thumb_show.php?i=c4vqsmem)
 # what is Memo?
 a simple and minimalist note app for windows with simple options using electron
 # inspiration
