@@ -11,11 +11,3 @@ Install electron globally using yarn `yarn global install electron` or npm `npm 
 Run npm run build:win ( for make exe file)
 Run electron . (to run the project)
 
-# todo : 
-+ add save as
-+  widget for windows
-+  todo lists
-+  android app
-+ chrome extention
-+ sync option
-+ add folders for notes
