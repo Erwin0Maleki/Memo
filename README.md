@@ -1,7 +1,7 @@
 
 # Memo
 ![Screenshot](https://i.screenshot.net/z2mr7ul)
-# what is Memo?
+# What is Memo?
 a simple and minimalist note app for windows with simple options using electron
 # inspiration
 UI inspired by [Kazuya Horikirikawa](https://dribbble.com/kz18)
@@ -11,3 +11,6 @@ Install electron globally using yarn `yarn global install electron` or npm `npm 
 Run npm run build:win ( for make exe file)
 Run electron . (to run the project)
 
+# Todos
++ save as
++ open .txt file
