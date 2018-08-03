@@ -14,4 +14,3 @@ Run electron . (to run the project)
 # Todos
 + save as
 + open .txt file
-+ highlight
